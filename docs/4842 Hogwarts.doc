@@ -1,0 +1,955 @@
+{\rtf1\adeflang1025\ansi\ansicpg1252\uc1\adeff31507\deff0\stshfdbch31505\stshfloch31506\stshfhich31506\stshfbi31507\deflang1033\deflangfe1033\themelang1033\themelangfe0\themelangcs0{\fonttbl{\f0\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f34\fbidi \froman\fcharset0\fprq2{\*\panose 02040503050406030204}Cambria Math;}
+{\f37\fbidi \fswiss\fcharset0\fprq2{\*\panose 020f0502020204030204}Calibri;}{\flomajor\f31500\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\fdbmajor\f31501\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\fhimajor\f31502\fbidi \froman\fcharset0\fprq2{\*\panose 02040503050406030204}Cambria;}
+{\fbimajor\f31503\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\flominor\f31504\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\fdbminor\f31505\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\fhiminor\f31506\fbidi \fswiss\fcharset0\fprq2{\*\panose 020f0502020204030204}Calibri;}
+{\fbiminor\f31507\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f243\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\f244\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\f246\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\f247\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\f248\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\f249\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}
+{\f250\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\f251\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\f583\fbidi \froman\fcharset238\fprq2 Cambria Math CE;}{\f584\fbidi \froman\fcharset204\fprq2 Cambria Math Cyr;}
+{\f586\fbidi \froman\fcharset161\fprq2 Cambria Math Greek;}{\f587\fbidi \froman\fcharset162\fprq2 Cambria Math Tur;}{\f590\fbidi \froman\fcharset186\fprq2 Cambria Math Baltic;}{\f591\fbidi \froman\fcharset163\fprq2 Cambria Math (Vietnamese);}
+{\f613\fbidi \fswiss\fcharset238\fprq2 Calibri CE;}{\f614\fbidi \fswiss\fcharset204\fprq2 Calibri Cyr;}{\f616\fbidi \fswiss\fcharset161\fprq2 Calibri Greek;}{\f617\fbidi \fswiss\fcharset162\fprq2 Calibri Tur;}
+{\f620\fbidi \fswiss\fcharset186\fprq2 Calibri Baltic;}{\f621\fbidi \fswiss\fcharset163\fprq2 Calibri (Vietnamese);}{\flomajor\f31508\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}
+{\flomajor\f31509\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\flomajor\f31511\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\flomajor\f31512\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}
+{\flomajor\f31513\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\flomajor\f31514\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\flomajor\f31515\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}
+{\flomajor\f31516\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\fdbmajor\f31518\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\fdbmajor\f31519\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\fdbmajor\f31521\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fdbmajor\f31522\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\fdbmajor\f31523\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\fdbmajor\f31524\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fdbmajor\f31525\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\fdbmajor\f31526\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}
+{\fhimajor\f31528\fbidi \froman\fcharset238\fprq2 Cambria CE;}{\fhimajor\f31529\fbidi \froman\fcharset204\fprq2 Cambria Cyr;}{\fhimajor\f31531\fbidi \froman\fcharset161\fprq2 Cambria Greek;}{\fhimajor\f31532\fbidi \froman\fcharset162\fprq2 Cambria Tur;}
+{\fhimajor\f31535\fbidi \froman\fcharset186\fprq2 Cambria Baltic;}{\fhimajor\f31536\fbidi \froman\fcharset163\fprq2 Cambria (Vietnamese);}{\fbimajor\f31538\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}
+{\fbimajor\f31539\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\fbimajor\f31541\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fbimajor\f31542\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}
+{\fbimajor\f31543\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\fbimajor\f31544\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fbimajor\f31545\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}
+{\fbimajor\f31546\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\flominor\f31548\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\flominor\f31549\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\flominor\f31551\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\flominor\f31552\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\flominor\f31553\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\flominor\f31554\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\flominor\f31555\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\flominor\f31556\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}
+{\fdbminor\f31558\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\fdbminor\f31559\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\fdbminor\f31561\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}
+{\fdbminor\f31562\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\fdbminor\f31563\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\fdbminor\f31564\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}
+{\fdbminor\f31565\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\fdbminor\f31566\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\fhiminor\f31568\fbidi \fswiss\fcharset238\fprq2 Calibri CE;}
+{\fhiminor\f31569\fbidi \fswiss\fcharset204\fprq2 Calibri Cyr;}{\fhiminor\f31571\fbidi \fswiss\fcharset161\fprq2 Calibri Greek;}{\fhiminor\f31572\fbidi \fswiss\fcharset162\fprq2 Calibri Tur;}
+{\fhiminor\f31575\fbidi \fswiss\fcharset186\fprq2 Calibri Baltic;}{\fhiminor\f31576\fbidi \fswiss\fcharset163\fprq2 Calibri (Vietnamese);}{\fbiminor\f31578\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}
+{\fbiminor\f31579\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\fbiminor\f31581\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fbiminor\f31582\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}
+{\fbiminor\f31583\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\fbiminor\f31584\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fbiminor\f31585\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}
+{\fbiminor\f31586\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;
+\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\*\defchp 
+\fs22\loch\af31506\hich\af31506\dbch\af31505 }{\*\defpap \ql \li0\ri0\sa200\sl276\slmult1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 }\noqfpromote {\stylesheet{\ql \li0\ri0\sa200\sl276\slmult1
+\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af31507\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\f31506\hich\af31506\dbch\af31505\cgrid\langnp1033\langfenp1033 \snext0 \sqformat \spriority0 Normal;}
+{\*\cs10 \additive \ssemihidden \sunhideused \spriority1 Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\trcbpat1\trcfpat1\tblind0\tblindtype3\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv \ql \li0\ri0\sa200\sl276\slmult1
+\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af31507\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\f31506\hich\af31506\dbch\af31505\cgrid\langnp1033\langfenp1033 \snext11 \ssemihidden \sunhideused 
+Normal Table;}}{\*\rsidtbl \rsid3431739\rsid14241132}{\mmathPr\mmathFont34\mbrkBin0\mbrkBinSub0\msmallFrac0\mdispDef1\mlMargin0\mrMargin0\mdefJc1\mwrapIndent1440\mintLim0\mnaryLim1}{\info{\operator Victor}{\creatim\yr2015\mo1\dy24\hr18\min14}
+{\revtim\yr2015\mo1\dy24\hr18\min14}{\version2}{\edmins0}{\nofpages18}{\nofwords7490}{\nofchars42697}{\nofcharsws50087}{\vern49167}}{\*\xmlnstbl {\xmlns1 http://schemas.microsoft.com/office/word/2003/wordml}}
+\paperw12240\paperh15840\margl1440\margr1440\margt1440\margb1440\gutter0\ltrsect 
+\widowctrl\ftnbj\aenddoc\trackmoves0\trackformatting1\donotembedsysfont0\relyonvml0\donotembedlingdata1\grfdocevents0\validatexml0\showplaceholdtext0\ignoremixedcontent0\saveinvalidxml0\showxmlerrors0\horzdoc\dghspace120\dgvspace120\dghorigin1701
+\dgvorigin1984\dghshow0\dgvshow3\jcompress\viewkind1\viewscale100\rsidroot14241132 \fet0{\*\wgrffmtfilter 2450}\ilfomacatclnup0\ltrpar \sectd \ltrsect\linex0\sectdefaultcl\sftnbj {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2
+\pnucltr\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6
+\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang 
+{\pntxtb (}{\pntxta )}}\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af31507\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af31506\hich\af31506\dbch\af31505\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Hogwarts
+\par \hich\af0\dbch\af31505\loch\f0 Book 1.
+\par \hich\af0\dbch\af31505\loch\f0 Bag 1.}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \fi720\li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Make people and accessories. Give Snape (?) a key and make him a lantern by putting a button on the bottom of a cylinder and a faucet piece on top. Give Harry an invisibility cloak and a broom (put a cone on the broomstick narrow side up). Make McGonagal 
+\hich\af0\dbch\af31505\loch\f0 b\hich\af0\dbch\af31505\loch\f0 y putting a hat on the head, a cloak under the head, and a skirt piece under the upper body piece. Give wands to Harry, Chadwick (?), Snape, Hagrid (?) and three other figures. 
+\par \hich\af0\dbch\af31505\loch\f0 Make two dementors. Put a upper body skeleton on the two clasps with the stick\hich\af0\dbch\af31505\loch\f0 . Put hands, ragged cloak and head. Put a hood on the head. Put on a saucer stand. Repeat.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 2.}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 1.\tab Put a flat 4x2 horizontally on the table.
+
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+b. Put a 2x1 horizontally in the middle of the second (back) row of the 4x2. Put aside.
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 2.\tab Put a 2x1 with the hin
+\hich\af0\dbch\af31505\loch\f0 ge on top of the flat 2x1, hinge to the right and to the front. 
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+b. Insert the stick of a 2x1 with the stick in the hinge. Repeat. 
+\par \hich\af0\dbch\af31505\loch\f0 c. Put one such part on vertically on the left of the 4x1, so that it opens to the left and to the back.
+\par \hich\af0\dbch\af31505\loch\f0 d. Put the second s\hich\af0\dbch\af31505\loch\f0 uch part on the right of the 4x2 vertically, so that it opens to the right and to the front.
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 3.\tab 
+Put a curved 2x1 horizontally on the 2x1 in the middle of the second row.  
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+b. Put one 2x1 with the two connectors on the swinging part on the left, connectors \hich\af0\dbch\af31505\loch\f0 to the back, and the other on the swinging part on the right, connectors to the front.
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 4.\tab 
+Put one 2x1 on top of the one 2x1 piece with the connector and the other on the other. b. Put two tall 2x1 pieces on tops of the steady parts of the connecting pieces\hich\af0\dbch\af31505\loch\f0 
+ (on the hinge parts), vertically, one to the left and one to the right of the curved 2x1 piece.
+\par \hich\af0\dbch\af31505\loch\f0 5.\tab Make a round-arch window. Put two 1x1 pieces with the cornices and side buttons on a flat 2x1, cornices to the front. 
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 b. Put a 2x1 wedge piece in front of 
+\hich\af0\dbch\af31505\loch\f0 the cornices, narrow side up. 
+\par \hich\af0\dbch\af31505\loch\f0 c. Put an arched frame on top. Put a lattice grid inside the frame. Put the window on top of the curved 2x1 piece.
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 6.\tab 
+Put two flat 2x1/2x1 connectors on top of the sides, as before.
+\par \hich\af0\dbch\af31505\loch\f0 7.\tab Put four tall 2x1 pieces on top of the f\hich\af0\dbch\af31505\loch\f0 our 2x1 surfaces of your structure.
+\par \hich\af0\dbch\af31505\loch\f0 8.\tab Put a 4x1 arch piece horizontally over the window, on the two back buttons to the left and to the right of it. 
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+b. Put one small roof piece on the left horizontal end, flat side to the back, and the other on the right\hich\af0\dbch\af31505\loch\f0 , flat side to the front.
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 9.\tab 
+Put two 1x1 pieces on the buttons in front of the arch.
+\par \hich\af0\dbch\af31505\loch\f0 10.\tab Put two 1-button roof pieces over the windows, buttons next to each other in the middle at the back.
+\par \hich\af0\dbch\af31505\loch\f0 11.\tab Put a 2x1 piece with one button horizontally\hich\af0\dbch\af31505\loch\f0  on the roof. Put a cone on the button.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 3.}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 1.\tab Make two connected sides of the wall.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+b. Insert a stick end of the 2x1 piece with the stick into the hinge of a 2x1 with the hinge.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 2.\tab 
+Flip upside down and put a flat 2x1 (upside down) on each side of the h\hich\af0\dbch\af31505\loch\f0 inge/stick part.
+\par \hich\af0\dbch\af31505\loch\f0 3.\tab Flip right side up. Put a 2x1 with the two connectors on each part of the hinge/stick, so that if you close the part, the connectors will face away from each other.
+\par \hich\af0\dbch\af31505\loch\f0 4.\tab Put a flat 2x1 connector on top.
+\par \hich\af0\dbch\af31505\loch\f0 5.\tab Put two tall 2x1 pieces on top.
+\par \hich\af0\dbch\af31505\loch\f0 6.\tab Put two 2x1 on top.
+\par \hich\af0\dbch\af31505\loch\f0 7.\tab Put two small roof pieces on top, so that if you close the part, the flat sides of the roof will face away from each other.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 4.}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 1.\tab Put a flat 10x4 horizontally in front of you.
+
+\par \hich\af0\dbch\af31505\loch\f0 2.\tab Put one 2x1 horizontally at the left end of the\hich\af0\dbch\af31505\loch\f0  last row, and the other at the right end.
+\par \hich\af0\dbch\af31505\loch\f0 3.\tab Put a 10x1 piece horizontally on the third row from the front. Put another 10x4 flat piece in front of and next to the first, horizontally.
+\par \hich\af0\dbch\af31505\loch\f0 4.\tab Connect the two platform pieces by putting one flat smooth piece ve\hich\af0\dbch\af31505\loch\f0 
+rtically on the left column, using two buttons of the front piece and two of the back, and the other flat smooth piece on the right in the same way. 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+b. Put one 1x1 wedge piece on the second column from the left, on the 6}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\super\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 th}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0   row from the front, lower end t\hich\af0\dbch\af31505\loch\f0 o the left, and the other wedge piece symmetrically on the right, lower end to the right.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 5.\tab 
+Put one flat 2x2 piece to the right of the left wedge piece, and the other to the left of the right wedge piece. 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 b. Put a flat 3x2 vertically in between of the tw
+\hich\af0\dbch\af31505\loch\f0 o flat 2x2 pieces. 
+\par \hich\af0\dbch\af31505\loch\f0 c. Put a flat 2x1 with one button horizontally in front of the flat 3x2.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 6.\tab 
+Put one 2x1 with the holes vertically on top of the back end of the left column, and the other on the right. 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+b. Put one 1x1 piece with the stick on top of the first button of the left column, and one on the right, sticks to the front.
+\par \hich\af0\dbch\af31505\loch\f0  c. Put one 1x1 piece at the back of the left 1x1 piece with the stick, and one on the right.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 7.\tab Put one 2x1 piece vertically at t
+\hich\af0\dbch\af31505\loch\f0 he back of the second column on the left, and one on the right. 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+b. Put three curves 2x1 horizontally in between them, on the second row from the back.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 8.\tab 
+Put one 2x2 piece on the back of the left side  and one on the right. 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 b. Put one 2x1 horizontally to\hich\af0\dbch\af31505\loch\f0 
+ the right of the left 2x1 piece, on the second row from the back, and one on the right.
+\par 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 5.}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 9.\tab 
+Put one 2x2 cylinder on the back of the left side, and one on the right. 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+b. Put one curved 2x1 to the right of the left cylinder, on the second row from th\hich\af0\dbch\af31505\loch\f0 e back, and one on the right.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 10.\tab Repeat step 9.
+\par \hich\af0\dbch\af31505\loch\f0 11.\tab Make the window the same way as before, but without the flat 2x1 piece. 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+b. Put the window in the gap in the middle of your structure, wedge side to the back.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 12.\tab Rotate your structure 180 degrees. Put o
+\hich\af0\dbch\af31505\loch\f0 ne 2x1 piece vertically on the front of the left side, on the cylinder, and one on the right.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 b. Put a 4x1 arch piece over the window. 
+\par \hich\af0\dbch\af31505\loch\f0 c. Put one 2x1 piece horizontally to the left of the arch, and one to the right.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 13.\tab Put an 8x1 arch piece in front of t
+\hich\af0\dbch\af31505\loch\f0 he 4x1 arch, on the cylinders. 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+b. Put a 4x1 piece with the side buttons horizontally in the middle of the 8x1 arch, buttons to the front.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 14.\tab 
+Put a flat smooth 2x1 piece upright on the middle two of the side buttons of the 4x1 piece. Insert two arm-clasps\hich\af0\dbch\af31505\loch\f0  in the remaining holes.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+b. Put one 1x1 to the left of the 4x1 with the holes, and one to the right. 
+\par \hich\af0\dbch\af31505\loch\f0 c. Put one 1x1 piece with the stick to the left of the left 1x1, and one to the right, sticks to the front.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 15.\tab Rotate 180 degrees. Put one three-buttons 
+\hich\af0\dbch\af31505\loch\f0 corner piece on the back of the left side, in the shape of H, one level lower than the top, and one on the right, in the shape of J.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 b. Put a 6x1 in between them.
+\par }\pard \ltrpar\ql \li288\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin288\itap0 {\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 6.}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 1.\tab Put a flat 6x2 horizontally in front of you. 
+
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+b. Put a flat 3x1 vertically next to it in front on the left, so that their left sides align.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 2.\tab 
+Make a hinge/stick part, open it so that it is straight and connect the flat pieces with it so that the hinge is to the right.
+\par \hich\af0\dbch\af31505\loch\f0 3.\tab Put a 4x1 horizontally on top\hich\af0\dbch\af31505\loch\f0  of the 6x2 piece, to the right of the hinge. 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+b. Put another flat 3x1 piece to the right the same way as before.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 4.\tab 
+Make another hinge/stick part and connect the right side as before, hinge to the left.
+\par \hich\af0\dbch\af31505\loch\f0 5.\tab Put a button upright on the side button of a 1x1 \hich\af0\dbch\af31505\loch\f0 piece with the cornice. Repeat. 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+b. Put one such part on the front of the left side, button to the left, and one on the right, button to the right.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 6.\tab 
+Put one three-button corner piece on the back of the left side, in the shape of F, and one on the right, \hich\af0\dbch\af31505\loch\f0 in the shape of D. 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+b. Put one 3x1 piece vertically on the left wall, and one on the right, in front of the corner pieces.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 7.\tab 
+Put one 2x1 piece vertically on the back of the left wall, and one on the right. 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 b. Put a 4x1 horizontally on the back wall.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 8.\tab P\hich\af0\dbch\af31505\loch\f0 
+ut a button on a 1x1 piece with the cornice as before. Make four such parts. 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+b. Put one on the left wall, to the front of the 2x1 piece, and one on the right. 
+\par \hich\af0\dbch\af31505\loch\f0 c. Put one 1x1 piece to the front of the left part, and one on the right. 
+\par \hich\af0\dbch\af31505\loch\f0 d. Put the third par\hich\af0\dbch\af31505\loch\f0 t to the front of the 1x1 piece on the left, and one on the right.
+\par 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 7}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 .
+\par 
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 9.\tab 
+Put two corner pieces at the back corners as before. 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 b. Put a 2x1 on the back wall. 
+\par \hich\af0\dbch\af31505\loch\f0 c. Put one 3x1 vertically on the left wall, and one on the right, in front of the corner pi\hich\af0\dbch\af31505\loch\f0 eces.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 10.\tab 
+Make two hinge/stick parts. Put one vertically at the back of the left wall (leaving one, front button of the left wall free), and one on the right.
+\par \hich\af0\dbch\af31505\loch\f0 11.\tab Make two more parts with the cornice pieces and the buttons. P\hich\af0\dbch\af31505\loch\f0 ut one in the front of the left wall, button to the left, and one on the right, button to the right.
+\par \hich\af0\dbch\af31505\loch\f0 12.\tab Put a flat 6x2 piece horizontally on the back wall. 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+B. Put one 1x1 piece with the long toe vertically on the left wall, toe to the back, and one on th\hich\af0\dbch\af31505\loch\f0 e right.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 13.\tab 
+Rotate 180 degrees. Put one 1x1 wedge piece on the front of the left wall, lower side to the back, and one to the right. Close the left and the right walls in so that they touch each other and form a kind of a triangle. There are no numbers 14
+\hich\af0\dbch\af31505\loch\f0  and 15 (because they mean that all these last 13 steps were inside step 15 of the previous count. But this is confusing, so I will just start with the step 16).
+\par \hich\af0\dbch\af31505\loch\f0 16.\tab Put this triangle part on the platform of your previous part, in the middle, next to the b\hich\af0\dbch\af31505\loch\f0 ack wall, triangle walls to the front.
+\par \hich\af0\dbch\af31505\loch\f0 17.\tab Put one very tall 2x1 vertically in front of the left wall, and one on the right (on top of the 1x1 stick piece and 1x1 piece).
+\par \hich\af0\dbch\af31505\loch\f0 18.\tab Put one 8x1 piece vertically on top of the left wall (with the gap underneath), a\hich\af0\dbch\af31505\loch\f0 nd one on the right.
+\par \hich\af0\dbch\af31505\loch\f0 19.\tab Put two flat 10x4 pieces horizontally on top, to make a roof.
+\par \hich\af0\dbch\af31505\loch\f0 20.\tab Make two torches by inserting flame pieces in the torch handles, and put them in the clasps in front on the left and on the right.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 8.}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 21.\tab Rotate 180 degrees. Put
+\hich\af0\dbch\af31505\loch\f0  one 2x2 in the front of the left side, and one on the right. 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+b. Put three curved 2x1 pieces horizontally next to each other on the  second row from the front.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 22.\tab 
+Put one 2x2 on top of the left 2x2 piece, and one on the right. 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 b. Put one 2x1 horizontall\hich\af0\dbch\af31505\loch\f0 
+y on the second level to the right of the left 2x2, and one to the left of the right 2x2, leaving a 2x1 gap in the middle.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 23.\tab 
+Put one 2x2 cylinder on the third level, on top of the left 2x2, and one on the right. 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 b. Put one curved 2x1 horizontally in top
+\hich\af0\dbch\af31505\loch\f0  of the left 2x1, and one on the right, continuing to leave the gap in the middle.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 24.\tab 
+Make a latticed window as before and put it in the gap.
+\par \hich\af0\dbch\af31505\loch\f0 25.\tab Put two more cylinders and two more curved 2x1 pieces on top of the previous ones.
+\par \hich\af0\dbch\af31505\loch\f0 26.\tab Put a 4x1 arch horizon\hich\af0\dbch\af31505\loch\f0 tally over the window and put one 2x1 horizontally to the left and one to the right.
+\par 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 9.}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par 
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 27.\tab 
+Put one 2x1 vertically to the left of the previous left 2x1, on the left cylinder, and one to the right. 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 b. Put a 6x1 horizontally on the next level, in the 
+\hich\af0\dbch\af31505\loch\f0 middle, on top of the arch.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 28.\tab 
+Put one three-button corner piece to the left in the shape of F, and the other to the right in the shape of D. 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 b. Put an 8x1 arch horizontally in the front row.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 29.\tab \hich\af0\dbch\af31505\loch\f0 
+Put three curved 2x1 pieces horizontally in the middle of the next level. 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+b. Put one 1x1 with the stick to the left, and one to the right, sticks to the front.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 30.\tab 
+Rotate the structure 180 degrees. Put one 3x1 flat smooth piece vertically on the back thre\hich\af0\dbch\af31505\loch\f0 e buttons of the left row of the flat roof, and one on the right. 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+b. Put on 2x1 flat piece vertically to the front of the left 3x1 flat smooth piece, and one on the right.
+\par 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 10.}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par 
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 31.\tab 
+Put two 2x1 flat pieces on top of the previous two. 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 b. Put one 3x2 v\hich\af0\dbch\af31505\loch\f0 
+ertically to the right of the left flat piece, and one to the left of the right.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 32.\tab 
+Put a flat 8x2 horizontally on tops of the 3x2 pieces at the back, next to the back wall. 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+b. Put a flat 8x1 piece with the cornice horizontally to the front of it, cornic\hich\af0\dbch\af31505\loch\f0 e to the front. c. Put one 2x1 vertically on top of the left 2x1 flat piece, and the other on the right.
+\par \hich\af0\dbch\af31505\loch\f0       33.  put three 3x2 pieces vertically side by side on top of the 8x2 and 8x1, so that the rightmost button and leftmost button remain free.
+\par }\pard \ltrpar\ql \fi720\li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 b. put\hich\af0\dbch\af31505\loch\f0 
+ one 1x1 on the back button of the left 2x1 piece, and the other on the right.
+\par \hich\af0\dbch\af31505\loch\f0 c. put one 1x1 piece with the stick in front of each of the previous pieces, sticks facing each other.
+\par \hich\af0\dbch\af31505\loch\f0 34. ......................................................................
+..........................................................................................................................................................................................
+\par \hich\af0\dbch\af31505\loch\f0 Large bag 4.
+\par \hich\af0\dbch\af31505\loch\f0 Bag 1.
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 1.\tab 
+Put a curved 2x1 on top of a 2x1 with a toe, t\hich\af0\dbch\af31505\loch\f0 oe facing you.
+\par \hich\af0\dbch\af31505\loch\f0 2.\tab Put a 2x1 with the side buttons on top, buttons facing you and back.
+\par \hich\af0\dbch\af31505\loch\f0 3.\tab Put a 2x1 wedge piece upright on the front side buttons, wide edge down. put a 2x1 flat smooth piece upright on the back buttons. Put a sticker with the Slytherin sym\hich\af0\dbch\af31505\loch\f0 bol on it.
+\par \hich\af0\dbch\af31505\loch\f0 4.\tab Put a window arch on top, lattice inside.
+\par \hich\af0\dbch\af31505\loch\f0 5.\tab Put your part on a hexagon, in the middle of one of the edge rows, toe to the front.
+\par \hich\af0\dbch\af31505\loch\f0 6.\tab \hich\af0\dbch\af31505\loch\f0 Put one wall piece to the right and one to the left of your part on the hexagon base. Put stickers with brickwork pattern on them.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 2.
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 7.\tab a. put a 2x2 on the table.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+b. put a 2x1 vertically on the right side of it. Put a 2x1 with the side holes verticall\hich\af0\dbch\af31505\loch\f0 y on the other side.
+\par \hich\af0\dbch\af31505\loch\f0 c. put a 2x1 with the clasp vertically on the right side. Put a 2x1 vertically on the left side.
+\par \hich\af0\dbch\af31505\loch\f0 d. put a 2x2 on top. Put another one on top.
+\par \hich\af0\dbch\af31505\loch\f0 e. put a snake in the clasp.
+\par \hich\af0\dbch\af31505\loch\f0 Repeat steps a-e to make another such part. Put one such part ne\hich\af0\dbch\af31505\loch\f0 xt to each of the wall pieces on the edges of the base, snakes facing each other.
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 8.\tab 
+Put a flame in the narrow end of the torch and put it in the center of the base, on the floor.
+\par \hich\af0\dbch\af31505\loch\f0 9.\tab Put one very tall 1x1 piece next to each of your last parts, on the secon\hich\af0\dbch\af31505\loch\f0 d row buttons.
+\par \hich\af0\dbch\af31505\loch\f0 10.\tab Put a 4x1 arch over the window. Put one 4x1 piece on top of the left snake side and one on the right.
+\par \hich\af0\dbch\af31505\loch\f0 11.\tab Put two 2x1 lipped pieces on the right 4x1 piece and two on the left, lips away from each other. Put a square with a rotating base \hich\af0\dbch\af31505\loch\f0 
+on the second and third row of the remaining free edge, to the left of the snake wall (their corners must touch), and the other one on the other side the same way.
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 3.
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 12.\tab 
+Make a coffee table. Flip a 4-button circle button-side down. put four cones on i\hich\af0\dbch\af31505\loch\f0 
+t, wide ends up. Flip over. Put a paper and a goblet on the table. Put it on the front of the remaining edge, in the middle, and put two chairs on the sides, at an angle.
+\par \hich\af0\dbch\af31505\loch\f0 13.\tab Cover with the hexagon roof.
+\par \hich\af0\dbch\af31505\loch\f0 14.\tab Put a square with a gear circle inside on top, i\hich\af0\dbch\af31505\loch\f0 n the middle. Put a flat smooth 4x1 next to the back of it.
+\par \hich\af0\dbch\af31505\loch\f0 15.\tab Put two pieces of wall over the two pieces of wall on the first floor. Put stickers.
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 4.
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 16.\tab 
+Make a window. Put a curved 2x1 on top of a 2x1. Put two 1x1 with the side buttons on top, side \hich\af0\dbch\af31505\loch\f0 
+by side. Put a wedge piece upright on them, wide edge down. put a window frame on top. Put lattice inside. Make two more such windows. Put one between the two walls, and two next to the walls, on the second rows from the edges.
+\par \hich\af0\dbch\af31505\loch\f0 17.\tab Put one very tall 1x1 pi\hich\af0\dbch\af31505\loch\f0 ece next to the right window wall, and one to the left, also on the second rows. Put a spider on the left side of the remaining free edge.
+\par \hich\af0\dbch\af31505\loch\f0 18.\tab Put three 4x1 arch piece over the windows.
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 5.
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 19.\tab \hich\af0\dbch\af31505\loch\f0 
+ Make a niche for a knight. 1. Put a 10-button disk on the table. Put a bench piece on the two back horizontal buttons, facing you. 2. Put a 2x1 piece horizontally on front of the bench (don't ask!). Put two one-button 2x1 flat pieces vertically side by s
+\hich\af0\dbch\af31505\loch\f0 i\hich\af0\dbch\af31505\loch\f0 
+de in front of the 2x1 piece. 3. Put another 2x1 piece on top of the first one. 4. Put a curved 2x1 piece on top of the previous piece. put one tall-slide-one button piece vertically on the right side of the disk, and one on the left, slide sides facing b
+\hich\af0\dbch\af31505\loch\f0 a\hich\af0\dbch\af31505\loch\f0 
+ck. one front button on the left side of the disk and one on the right should remain free. The slide pieces overhang at the back. 5. Put two one-button pieces with the toe on top of your part, horizontally, toes facing outwards. 6. Put a one-button 2x1 fl
+\hich\af0\dbch\af31505\loch\f0 a\hich\af0\dbch\af31505\loch\f0 
+t smooth piece horizontally on top. Put a button on top. 7. Make a knight in armor and put him in the middle of the front row. Put a book on the shelf in the back. put this part on the second floor of your structure, in the middle, facing you.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Large bag 5.
+\par \hich\af0\dbch\af31505\loch\f0 Bag 1.}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \fi-431\li1440\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1440\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 1.\tab 
+Put a hexagon base on the table. Put a 4x2 flat smooth piece vertically in the middle of the back.
+\par \hich\af0\dbch\af31505\loch\f0 2.\tab Put one 2x1 piece vertically to the left of it, on the back, and one on the right. Put one three-button corner piece to the front of the right \hich\af0\dbch\af31505\loch\f0 
+2x1 piece in the shape of D (1-4-5), and one in front of the left 2x1 piece, in the shape of the letter F (1-2-4).
+\par \hich\af0\dbch\af31505\loch\f0 3.\tab Put a 6x2 flat piece horizontally on the table. Put a flat smooth 4x2 horizontally on top of it, in the middle. Put a flat 2x1 with the ha\hich\af0\dbch\af31505\loch\f0 
+ndle vertically on the left, handle to the left. Put a 4x1 flat piece vertically next to the right side of the 6x2 piece, in the middle. Connect it with a 2x2 flat smooth piece. Put a sticker of the fire with the pig face (or so it seems!) on the flat smo
+\hich\af0\dbch\af31505\loch\f0 o\hich\af0\dbch\af31505\loch\f0 
+th piece. Put a button of the front and on the back button of the 4x1 piece. Put this part on top of your structure, vertically, sticker side to the front, in the middle, so that the 1x1 buttons go inside the corner pieces.
+\par \hich\af0\dbch\af31505\loch\f0 4.\tab Put a 4x1 piece horizontally \hich\af0\dbch\af31505\loch\f0 on top, behind the sticker piece, across the flat smooth piece. Put a curved 4x1 piece horizontally to the back of it.
+\par \hich\af0\dbch\af31505\loch\f0 5.\tab  Put two tiny clasp pieces to the back of the two 1x1 button pieces. Put two flame pieces in the clasps, parallel to the ground and fa\hich\af0\dbch\af31505\loch\f0 
+cing each other. Put one 2x1 piece vertically on top of the left-side 2x1 piece, and one on the right.
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 2. }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \fi-431\li1440\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1440\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 6.\tab 
+Put a flat 6x2 piece horizontally on tops of the two 2x1 pieces over the fire. Put  one 2x1 piece vertically to the back of it on the right, a\hich\af0\dbch\af31505\loch\f0 
+nd one on the left. Put a flat 2x2 piece with the circle inside on the base, to the left, and one to the right. The left one goes on the third and fourth rows from the front, on the third and fourth columns from the left; the right one goes on the same ro
+\hich\af0\dbch\af31505\loch\f0 w\hich\af0\dbch\af31505\loch\f0 s, skipping two columns to the right. They are symmetrical. 
+\par \hich\af0\dbch\af31505\loch\f0 7.\tab Put two flat 2x2 discs in the previous pieces. Put three 2x1 tall slide pieces horizontally side by side on top of the 6x2 piece over the fire, slides facing you.
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 8.\tab Put a flat 2x1 with the ha
+\hich\af0\dbch\af31505\loch\f0 ndle on top of the middle 2x1 slide, horizontally, handle facing you. Put two flat 2x1 at the sides, horizontally.
+\par }\pard \ltrpar\ql \fi-431\li1440\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1440\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 9.\tab 
+Put a flat 6x1 on top, horizontally. Put a flat smooth 2x2 in the handle. Put a sticker on it with the coat of arms of Griffindor.
+\par \hich\af0\dbch\af31505\loch\f0 10.\tab Mak\hich\af0\dbch\af31505\loch\f0 e a window with the two 1x1 buttons, the frame, the lattice and the wedge (wider side down). Rotate your structure 180 degrees and install the window un the middle.
+\par \hich\af0\dbch\af31505\loch\f0 11.\tab Put two wall pieces at the sides, as before.
+\par }\pard \ltrpar\ql \fi288\li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 3.}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \fi-431\li1440\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1440\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 12.\tab Put two 2x1 pieces horizontally
+\hich\af0\dbch\af31505\loch\f0  at the sides above the window, in front of the 6x1 piece.
+\par \hich\af0\dbch\af31505\loch\f0 13.\tab Rotate the structure 180 degrees. Make a table and chairs as before. Put a goblet and a map (2x2 flat smooth piece) on the table. 
+\par \hich\af0\dbch\af31505\loch\f0 14.\tab \hich\af0\dbch\af31505\loch\f0 
+Make a window. Put a curved 2x1 underneath. Put a 2x1 underneath. Repeat to make another window. Install the windows at the sides, to the front of the wall pieces, wedges facing outwards.
+\par \hich\af0\dbch\af31505\loch\f0 15.\tab Put two 1x1 tall pieces at the side, to the front of the window.
+\par \hich\af0\dbch\af31505\loch\f0 16.\tab Put the three arches above the windows.
+\par \hich\af0\dbch\af31505\loch\f0 17.\tab Cover with a hexagon.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 4.}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \fi-431\li1440\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1440\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 18.\tab 
+Put two 2x1 with the slide on the back edge, horizontally, side by side, slides to the back. Put two 1x1 roof pieces to the right and left and to the front of the previous pi\hich\af0\dbch\af31505\loch\f0 
+eces, so that their corners overhang at the back, and they touch the previous pieces corner to corner.
+\par \hich\af0\dbch\af31505\loch\f0 19.\tab Put two 2x1 slide pieces at the left and two at the right edge, as before (vertically, side by side, slides outwards). Put one cone piece on the 4}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\lang3\langfe1033\super\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 th}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0  \hich\af0\dbch\af31505\loch\f0 
+ row, skipping one button to the right from the left slide piece, and the other on the same row, skipping two buttons to the right from the first one.
+\par \hich\af0\dbch\af31505\loch\f0 20.\tab Put an arch on top of the cones. Put another arch horizontally on the hexagon base in front of the fi\hich\af0\dbch\af31505\loch\f0 
+rst one, skipping one row. Put a button on the base in front of the left leg of the second arch.
+\par \hich\af0\dbch\af31505\loch\f0 21.\tab Put two owls on the upper arch. Put an owl and a button on the lower arch.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 5.}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \fi-431\li1440\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1440\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 22.\tab 
+Rotate the structure 180 degrees. Put a large conical roof piece on t\hich\af0\dbch\af31505\loch\f0 
+op, two side perches to the front. Put a large cone on the right perch. Put a 2x1 flat piece with one button horizontally on the top of the roof. Put a cone on top.
+\par }\pard \ltrpar\ql \li2160\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin2160\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Make a three-step turret. 1. Put a 2x2 cylinder on top of a 2x2 disk. 2. Put  a flat 2x2 wi\hich\af0\dbch\af31505\loch\f0 
+th a half-circle end on top, horizontally, half-circle to the left, on the two left buttons of the cylinder. Put a button on the front right button of the cylinder. 3. Put a large cone on top, above the cylinder. Put a small cone on top. 4. Put a 1x1 flat
+\hich\af0\dbch\af31505\loch\f0  \hich\af0\dbch\af31505\loch\f0 
+smooth piece on top of the 2x1 piece with the lip, on the solid part. Put a button from a separate bag on the lip side of it. Put this part underneath your structure, horizontally, lip side to the left and the button on it in the hole of the half-circle. 
+\hich\af0\dbch\af31505\loch\f0 R\hich\af0\dbch\af31505\loch\f0 epeat this step to make another turret. 6. Put one turret on top and to the left of the other one. 7. Put a cylinder on the left side. Put a large cone on it. Put a small cone on top. 
+\par }\pard \ltrpar\ql \fi-431\li1440\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1440\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 23.\tab 
+Put this part on the left perch, going up to the left.
+\par \hich\af0\dbch\af31505\loch\f0 24.\tab Put this\hich\af0\dbch\af31505\loch\f0  part on top of your structure.
+\par \hich\af0\dbch\af31505\loch\f0 25.\tab Connect this structure to the rest, on the left, open side to the back.
+\par \hich\af0\dbch\af31505\loch\f0 26.\tab Connect the small connector wall to it on the left. Put the connector wall in the closed position so that its attached end is to the front.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Book\hich\af0\dbch\af31505\loch\f0  2
+\par \hich\af0\dbch\af31505\loch\f0 Bag 1}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 1.\tab 
+Put a 12x4 flat piece vertically in front of you.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Put a flat 2x1 vertically next to the two back buttons of the 12x4 piece on the right side.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 2.\tab 
+Connect them by putting a 2x2 partially on top of the 2x1 and partially on top of the 12x4.
+\par \hich\af0\dbch\af31505\loch\f0 3.\tab \hich\af0\dbch\af31505\loch\f0 Put an 8x1 vertically on top of the platform 12x4, on the right side, to the front of the 2x2.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Put a 2x1 piece horizontally to the left of the 2x2 piece, on the second row from the back.
+\par \hich\af0\dbch\af31505\loch\f0 Put a flat 2x1 vertically next to the platform, in the front, on the \hich\af0\dbch\af31505\loch\f0 right side.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 4.\tab 
+Connect it to the platform by putting a 3x2 piece horizontally partially in top of it and partially in the platform.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Put a second 12x4 flat piece vertically next to the first, on the left.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 5.\tab 
+Connect it to the first by putting a 2x2 piece at\hich\af0\dbch\af31505\loch\f0  the back partially on the first and partially on the second piece of the platform, to the left of the 2x1 piece, on the first and second rows from the back.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Put another 2x1 piece horizontally at the back, to the left of the previous piece, on the second r\hich\af0\dbch\af31505\loch\f0 ow from the back.
+\par \hich\af0\dbch\af31505\loch\f0 Put the third piece of the platform vertically next to the second, on the left.
+\par \hich\af0\dbch\af31505\loch\f0 Connect it with a 2x2 as before.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 6.\tab 
+Put a 2x1 horizontally to the left of the previous piece as before.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Put a curved 2x1 vertically on the leftmost column, on
+\hich\af0\dbch\af31505\loch\f0  the 5}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\super\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 th}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\hich\af0\dbch\af31505\loch\f0   and 6}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\super\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 th}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\hich\af0\dbch\af31505\loch\f0   rows. Put another such piece horizontally to the right of the first one, on the 5}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\super\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 th}{\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0   row.
+\par \hich\af0\dbch\af31505\loch\f0 Put the third such piece vertically to the right of the second one, on the same rows as the first one.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 7.\tab Put two 2x1 pieces with the clasp on top 
+\hich\af0\dbch\af31505\loch\f0 of the two vertical curved 2x1 pieces, clasps facing outwards.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Put a 2x1 piece with the lip on the horizontal curved piece, lip to the front.
+\par \hich\af0\dbch\af31505\loch\f0 Put the fourth piece of the platform to the left as before. 
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 8.\tab Connect it with the 2x2 as before.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Put a 2x1 to th\hich\af0\dbch\af31505\loch\f0 e left as before.
+
+\par \hich\af0\dbch\af31505\loch\f0 Put another piece of the platform to the left as before.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 9.\tab Connect it with a 2x2 as before.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Put a 2x1 to the left as before. You should have one button left free on the leftmost edge of the platform.
+\par \hich\af0\dbch\af31505\loch\f0 Put a flat 2x1 vertically next to the\hich\af0\dbch\af31505\loch\f0  left edge of the platform, at the back.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 10.\tab  Connect it to the platform by 2x2 as before.
+
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Put a 2x1 vertically on the leftmost column of the platform, to the front of the previous piece.
+\par \hich\af0\dbch\af31505\loch\f0 Put a flat 2x1 vertically next to the left edge of the platform, at \hich\af0\dbch\af31505\loch\f0 the front.
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 2}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 11.\tab 
+Connect it with putting a 3x2 horizontally, as on the right.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Put a 2x1 vertically on the leftmost column, to the back of the previous piece.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 12.\tab \hich\af0\dbch\af31505\loch\f0 
+Put a flat smooth 4x1 piece (missing?) horizontally on top of your curved-pieces structure in the middle.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Put two 1x1 flat smooth pieces to the back and to the sides of the previous piece.
+\par \hich\af0\dbch\af31505\loch\f0 Put two 1x1 wedge pieces on the lip piece in front, to make a tiny \hich\af0\dbch\af31505\loch\f0 roof.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 13.\tab 
+Put four 2x1 pieces with the holes vertically on all the corners of your large structure, on top of the other pieces.
+\par \hich\af0\dbch\af31505\loch\f0 14.\tab Go to the left front corner. Put a 3x1 vertically to the right of the 2x1 holey piece, protruding to the back. Put a 2x1 ver\hich\af0\dbch\af31505\loch\f0 
+tically to the right of it. Put a 1x1 with the clasp to the back of the 3x1 piece, clasp to the left.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Go to the left back corner. Put a 4x1 vertically to the right of the 2x1 holey piece, protruding to the front (resting on the other piece).
+\par \hich\af0\dbch\af31505\loch\f0 Go to the righ\hich\af0\dbch\af31505\loch\f0 t back corner. Put a 6x1 vertically to the left of the 2x1 holey piece. put another 6x1 vertically in front of the first one. Put a 2x1 vertically to the left of it in the front.
+
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 15.\tab 
+Put four 2x1 pieces horizontally at the back, on the back two buttons of \hich\af0\dbch\af31505\loch\f0 the four 2x2 pieces.
+\par }\pard \ltrpar\ql \fi720\li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Put three 6x1 pieces horizontally at the back to form the second level of the back wall.
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 3}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 16.\tab 
+Put a flat 16x6 piece horizontally next to the front of your structure, in the middle.
+\par \hich\af0\dbch\af31505\loch\f0 17.\tab Connect it by putting two flat smooth 8x1 pie\hich\af0\dbch\af31505\loch\f0 ces vertically at the left and right edges, aligned in the front to the 16x6 piece.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Put two more such pieces vertically side by side in the middle, parallel to the other two.
+\par \hich\af0\dbch\af31505\loch\f0 Put two flat 6x2 pieces horizontally at the front, between the flay smooth pieces\hich\af0\dbch\af31505\loch\f0  - one to the left and one to the right.
+\par \hich\af0\dbch\af31505\loch\f0 Put the other two such pieces the same way at the back, - skipping three rows from the first ones.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 18.\tab 
+Put four flat 8x2 pieces vertically next to each flat smooth vertical piece.
+\par \hich\af0\dbch\af31505\loch\f0 19.\tab Put two curved 2x1 pieces horiz\hich\af0\dbch\af31505\loch\f0 ontally in the front, on the second row, in between the two 8x2 pieces - one on the left and one on the front.
+\par }\pard \ltrpar\ql \fi432\li288\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin288\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Put the other two curved pieces parallel to the first ones, skipping four rows to the back.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 20.\tab 
+Put two flat 8x2 pieces vertically on top of the \hich\af0\dbch\af31505\loch\f0 curved pieces to form two long tables.
+\par \hich\af0\dbch\af31505\loch\f0 21.\tab Make two lanterns and insert them in the clasps on the sides of the central structure.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 4}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 22.\tab \hich\af0\dbch\af31505\loch\f0 
+Make two large chairs. Put two curved 2x1 pieces vertically underneath a flat 3x2 piece, on the shorter sides, to make a seat. Put a curved 2x1 piece on top of the shorter side of the 3x2 piece. Put another curved piece on top of this one. Put two 1x1 wed
+\hich\af0\dbch\af31505\loch\f0 g\hich\af0\dbch\af31505\loch\f0 
+e pieces on top of it to make a tiny roof. Make the other chair the same way. Install these chairs facing you to the right and to the left of the central structure, skipping three columns in each case.
+\par \hich\af0\dbch\af31505\loch\f0 23.\tab Put six 2x1 pieces at the back, to form a serrated\hich\af0\dbch\af31505\loch\f0  pattern. Put five 2x1 pieces horizontally in between.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 5}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 24.\tab 
+Go to the right wall. Put a 3x2 horizontally in the front corner of it, on the third level.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Put a 2x1 vertically on the wall to the back of it.
+\par \hich\af0\dbch\af31505\loch\f0 Put a 2x1 lip piece vertically to the back, lip\hich\af0\dbch\af31505\loch\f0  to the right.
+\par \hich\af0\dbch\af31505\loch\f0 Repeat.
+\par \hich\af0\dbch\af31505\loch\f0 Put a 2x1 vertically to the back of it.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 25.\tab 
+Go to the left front corner of the wall. Put a 3x2 piece as in the previous step.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Put a 2x1 vertically to the back.
+\par \hich\af0\dbch\af31505\loch\f0 Put a 2x1 vertically on the back side of the left wall.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 26.\tab Put two 3x1 p\hich\af0\dbch\af31505\loch\f0 
+ieces vertically on the right wall - the first one skipping the first two rows (which are in fact on the 3x2 piece) and the second - skipping two buttons to the back from the first one.
+\par \hich\af0\dbch\af31505\loch\f0 27.\tab Put two 2x1 curved pieces vertically on the lipped parts of the li\hich\af0\dbch\af31505\loch\f0 p pieces, next to each other.
+\par \hich\af0\dbch\af31505\loch\f0 28.\tab 
+put a 2x1 curved piece horizontally partially on the last button of the front 3x1 piece, and partially on the front curved piece to the right of it. Put the second curved piece parallel to the first one, to the back - part\hich\af0\dbch\af31505\loch\f0 
+ially on the first button of the back 3x1 piece and partially on the back curved piece to the right of it.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Put two 2x1 vertically on the remaining free buttons of the two 3x1 pieces.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 29.\tab 
+Put a window with the lattice in it vertically in the right wall, on \hich\af0\dbch\af31505\loch\f0 the remaining free buttons of the vertical curved pieces.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Put two curved pieces on top of the two horizontal curved pieces.
+
+\par \hich\af0\dbch\af31505\loch\f0 Put two 2x1 pieces vertically on top of the other 2x1 pieces.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 30.\tab 
+Put two 3x1 pieces vertically on top of the other pieces of the ri\hich\af0\dbch\af31505\loch\f0 ght wall.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Put a 4x1 arch over the window.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 31.\tab 
+Put one 2x1 piece vertically on top of the front two buttons of the right wall, and one on the back.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Put two 2x1 slide pieces vertically side by side in between the previous two pieces, slides to the right.
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag\hich\af0\dbch\af31505\loch\f0  6}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 32.\tab Put an 8x1 vertically on the right wall.
+
+\par \hich\af0\dbch\af31505\loch\f0 33.\tab Put six 2x1 curved pieces on top of each other. Make three more such columns. Install them at the back of the back wall, on the four middle 2x2 pieces, at the back, horizontally.
+\par \hich\af0\dbch\af31505\loch\f0 34.\tab \hich\af0\dbch\af31505\loch\f0 Put two 2x1 tall pieces horizontally on the back wall, in front of the leftmost and rightmost curved columns.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Put a 2x1 tall column on top of a 2x1 piece with clasp. Repeat. Put these two columns in front of the two inner curved columns, clasps to the fron\hich\af0\dbch\af31505\loch\f0 t.
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 7}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 35.\tab 
+Put three frames on top of each other. Repeat  four more times. Put in between the columns in the back, framed sides to the front.
+\par \hich\af0\dbch\af31505\loch\f0 36.\tab Put two scabbards   on the clasps.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 8}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 37.\tab 
+Put a 2x1 vertically on the back of the left wall, in front of \hich\af0\dbch\af31505\loch\f0 the 2x2 piece, on the 4}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\super\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 th}{
+\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0   level.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Put a 1x1 piece with the clasp on the front part of the left wall, on top of the other clasp (on the second level).
+\par \hich\af0\dbch\af31505\loch\f0 Put a 1x1 in front of it.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 38.\tab 
+Put a 6x1 arch vertically on the left wall, partially on top of the 1x1 with\hich\af0\dbch\af31505\loch\f0  the clasp and partially on top of the 2x1.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Put one 1x1 in front of the arch, and one at the back.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 39.\tab Put two more 1x1 pieces on top of these ones.
+
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Put a lattice in the door and put the door in the arch, fitting in the clasps.
+\par \hich\af0\dbch\af31505\loch\f0 Put one 8x1 on top of the ot\hich\af0\dbch\af31505\loch\f0 her and put them over the door.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 40.\tab 
+Put two 3x1 on top, leaving a two-button gap in the middle. Put a 2x1 lip piece in the gap, lip to the left.
+\par \hich\af0\dbch\af31505\loch\f0 41.\tab Put two more 8x1 pieces on top.
+\par \hich\af0\dbch\af31505\loch\f0 42.\tab Make a little roof. Put two 1x1 slide pieces next to each other, slides\hich\af0\dbch\af31505\loch\f0  facing outwards. Connect them with a small roof piece.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Put two more slide pieces underneath, with the two-button gap in the middle, facing as before.
+\par \hich\af0\dbch\af31505\loch\f0 Bag 9
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 43.\tab 
+Put six 2x2 cylinders on the stick. Make three more. Install in all four corners.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Put aside the\hich\af0\dbch\af31505\loch\f0 
+ leftover pieces for the next step.
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 10}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 44.\tab 
+Make a cake. Put a ten-button disk from the previous bag (it's yellow) in between two other (white) disks to make layers. Put an ice cream in the middle and decorate with the buttons around it, alternating the\hich\af0\dbch\af31505\loch\f0 
+ ones from the previous bag (red) with the new ones (green). Put it on one of the tables. Put the plate and a glass (a 1x1 cylinder) on the other.
+\par \hich\af0\dbch\af31505\loch\f0 45.\tab Put four goblets on the tables. Insert the chicken legs into \hich\af0\dbch\af31505\loch\f0 the chicken and put it on the table. Put a croissant and the cherries on the plate.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Large bag 8.
+\par \hich\af0\dbch\af31505\loch\f0 Bag 1}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 46.\tab 
+Put five 4x1 arches on the back wall, to the back of the windows, resting on the curved columns and on the inner buttons of the two circular corner c\hich\af0\dbch\af31505\loch\f0 olumns. 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Put two 2x1 pieces vertically at the back corners, on the top cylinders of the circular columns.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 47.\tab 
+Put two 10x2 pieces horizontally side by side on the back wall, to the front of the arches.
+\par \hich\af0\dbch\af31505\loch\f0 48.\tab Put a flat smooth 1x1 on top of the one-button 2x1\hich\af0\dbch\af31505\loch\f0 
+ flat piece. Make four more such parts. Put them horizontally on the back wall, skipping two buttons from both corners and in between them.
+\par \hich\af0\dbch\af31505\loch\f0 49.\tab Put a one-button 2x1 flat piece on top of a 2x1 slide piece. Put a cone on top. Make three more such parts. Put \hich\af0\dbch\af31505\loch\f0 them in between the previous parts on the back wall, slides to the front.
+
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 2
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 50.\tab 
+Put a 2x1 slide piece on top of a 2x1. Make another such part. Put them on the lips on the sides of the back wall, slides to the back, meeting with the slides of the first \hich\af0\dbch\af31505\loch\f0 
+and the fourth previous parts and resting on the 10x2 pieces.
+\par \hich\af0\dbch\af31505\loch\f0 51.\tab There are four transparent 1x1 pieces in a separate bag. There are two beige 1x1 pieces in another separate bag. Set them aside as is. Go to the left front corner. Put a 2x1 vertically on th
+\hich\af0\dbch\af31505\loch\f0 e left two buttons of the top cylinder of the circular column.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Put a 4x1 vertically to the right of it. Put five colored 1x1 pieces to start a stained glass window in such order: regular bag (blue), four-pieces bag (yellow), blue, yellow, beige (in a two-p\hich\af0\dbch\af31505\loch\f0 
+iece bag). Do the same for the right-side window.
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 3}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 52.\tab 
+ Put two 2x2 cylinders on the left window - one in front and one in the back. Put two 2x1 pieces vertically next to them - one to the front and one to the back. Put four 1x1 pieces in between in s\hich\af0\dbch\af31505\loch\f0 
+uch order (starting from the front): yellow - blue - yellow - blue. Do the same for the right window.
+\par \hich\af0\dbch\af31505\loch\f0 53.\tab Put four cones on four cylinders. Put two 2x1 pieces as before on each window. Put the 1x1 pieces in the reverse order: blue - yellow - blue - yellow.
+\par \hich\af0\dbch\af31505\loch\f0 54.\tab Put a 2x1 vertically on the front of the left wall, skipping one button. Put a blue, then a yellow 1x1. Then put another 2x1 vertically at the back. Do the same on the right wall.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Large bag 8
+\par \hich\af0\dbch\af31505\loch\f0 Bag 4}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 55.\tab Put a 6x1 vertically on top of each window.
+
+\par \hich\af0\dbch\af31505\loch\f0 56.\tab P\hich\af0\dbch\af31505\loch\f0 ut one 4x1 on top of another and put them vertically in top of the left window, in the middle.
+\par \hich\af0\dbch\af31505\loch\f0 57.\tab Put a 2x1 with the lip in the middle of the top of a 4x1 piece. Put two 1x1 pieces at the sides on top. Put a 2x1 curved piece on the lip. Put this part on t\hich\af0\dbch\af31505\loch\f0 
+he right window vertically, with the lip on the right.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Make a roof-top part with the banners.
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 1.\tab 
+Put two flat 10x2 pieces short side by shirt side, horizontally on the table.
+\par \hich\af0\dbch\af31505\loch\f0 2.\tab \hich\af0\dbch\af31505\loch\f0 
+Connect them by putting a flat 8x2 on top, in the middle. Put two flat 4x2 pieces horizontally on top of both ends. Put two flat 2x1 pieces horizontally on the back row on each side of the middle 8x2. Put two flat 2x1 pieces with the clasp horizontally to
+\hich\af0\dbch\af31505\loch\f0  \hich\af0\dbch\af31505\loch\f0 the front of the two previous pieces, clasp to the front.
+\par \hich\af0\dbch\af31505\loch\f0 3.\tab Put two flat 10x2 pieces horizontally side by side on top.
+\par \hich\af0\dbch\af31505\loch\f0 4.\tab Put flat 2x1 horizontally on the first row in the middle. Put a 2x1 flat piece with the clasp horizontally to the back of the previou\hich\af0\dbch\af31505\loch\f0 
+s piece, clasp to the back. Insert two banners into the front two clasps.
+\par \hich\af0\dbch\af31505\loch\f0 5.\tab Put the stickers on the banners. Put a flat 2x2 piece on top of the middle part. Put two long roof pieces side by side on both sides of the middle. One column of two buttons remai\hich\af0\dbch\af31505\loch\f0 
+ns free on each end.
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 5}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Make a roof-side part.
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 1.\tab 
+Put a flat 12x2 piece horizontally on the table. Put a flat 8x6 piece vertically on top, in the middle - three columns of two buttons each should remain free on each side of the 12x2, and three rows of s\hich\af0\dbch\af31505\loch\f0 
+ix buttons each of the 12x2 piece should overhang on the front and on the back.
+\par \hich\af0\dbch\af31505\loch\f0 2.\tab Put another 12x2 piece vertically to the right of the first one, aligned to it.
+\par \hich\af0\dbch\af31505\loch\f0 3.\tab Connect it to the first by putting a flat smooth 2x2 in the middle, in the center (skippin\hich\af0\dbch\af31505\loch\f0 
+g three rows from the front, skipping five columns from the left). Put another flat smooth 2x2 on the front two rows, skipping two columns from the right. Put one 1x1 wedge piece on the second row, to the right of the previous piece, taller side to the ba
+\hich\af0\dbch\af31505\loch\f0 c\hich\af0\dbch\af31505\loch\f0 
+k. Put another wedge piece on the second row to the left of the same 2x2 piece, as before. Put the third wedge piece on the same column as the last one, skipping three rows to the back. Put the 4}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\lang3\langfe1033\super\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 th}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+  wedge on the same row, skipping two columns to the right.\hich\af0\dbch\af31505\loch\f0 
+ The four wedges should form a square shape. Put a flat 2x1 piece with the handle horizontally on the front row, skipping two columns from the left, handle to the right, overhanging. Put a flat 2x1 piece horizontally to the back of it.
+\par \hich\af0\dbch\af31505\loch\f0 4.\tab Put a flat smooth\hich\af0\dbch\af31505\loch\f0  2x2 on top of the two previous pieces. Put four wedge pieces symmetrically to the first four, to form a square shape again.
+\par \hich\af0\dbch\af31505\loch\f0 5.\tab Put a flat 8x6 vertically to the left.
+\par \hich\af0\dbch\af31505\loch\f0 6.\tab Connect it to the middle one by putting a flat smooth 2x2 in the middle as before. Put\hich\af0\dbch\af31505\loch\f0  four wedge pieces as before. 
+\par \hich\af0\dbch\af31505\loch\f0 7.\tab Connect this part to the roof-top front by putting the back clasp of the roof top to the handle in the middle of the roof side. Swing the roof side down diagonally.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 58.\tab 
+Put the roof on the building, banner side to the open\hich\af0\dbch\af31505\loch\f0  front, resting on the two buttons on the tops of the left and right walls.
+\par \hich\af0\dbch\af31505\loch\f0 59.\tab Put one 2x2 cylinder on top of another, put a 2x2 cone with one button on the tip on top, put a 1x1 cone on top and put this part on the right-side end of the roof top, partly \hich\af0\dbch\af31505\loch\f0 
+on top of the roof and partly on top of the 2x1 curved perch.
+\par \hich\af0\dbch\af31505\loch\f0 60.\tab Put three 2x2 cylinders on top of each other, put a cone with the four buttons on the tip on top, put a cone with one button on the tip on top, put a 1x1 cone on top and put this part on the
+\hich\af0\dbch\af31505\loch\f0  2x2 space in the middle of the roof top.
+\par \hich\af0\dbch\af31505\loch\f0 61.\tab Put a 2x1 flat piece with one button on top of a 2x1, put a 1x1 cone on top and put this part on the left-side end of the roof top.
+\par \hich\af0\dbch\af31505\loch\f0 62.\tab Make a chandelier. 
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 1.\tab 
+- 2. Put a 2x2 flat piece with the stick in the mid\hich\af0\dbch\af31505\loch\f0 dle on top of a 10-button flat disk, in the middle.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 3.put a tube on top of the stick.
+\par \hich\af0\dbch\af31505\loch\f0 4. put a connector in the tube. Put four 1x1 cones on the very other button of the disc.
+\par \hich\af0\dbch\af31505\loch\f0 5. put four buttons on the cones.
+\par \hich\af0\dbch\af31505\loch\f0 6. put another tube on the connector.
+\par \hich\af0\dbch\af31505\loch\f0 7. insert a flat 2x2 with the stick on the bottom in the tube.
+\par \hich\af0\dbch\af31505\loch\f0 Hang the chandelier in the middle of the ceiling.
+\par }\pard \ltrpar\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 63.\tab 
+rotate this structure so that the open front is on the back. Connect it to the main building from the left, using two holes at the back of \hich\af0\dbch\af31505\loch\f0 
+the right side of this structure and two connectors on the small moving part of the main building.
+\par \hich\af0\dbch\af31505\loch\f0 64.\tab Connect another small moving part  to your structure using the two holes at the front of the left side of it. When the small moving part opens to form a \hich\af0\dbch\af31505\loch\f0 
+single straight line, it should protrude to the front. 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 End of book 2.
+\par \hich\af0\dbch\af31505\loch\f0 Book 3. Large bag 9. }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par \hich\af0\dbch\af31505\loch\f0 Make the first floor of the entrance with the spiral staircase.
+\par 
+\par \hich\af0\dbch\af31505\loch\f0 Bag 1.
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 1.\tab Put a flat 8x8 on the table.
+\par \hich\af0\dbch\af31505\loch\f0 2.\tab Put a 4x1 vertically on the back four buttons of the rig\hich\af0\dbch\af31505\loch\f0 
+ht-edge column. Put a 1x1 to the left of it on the last row. Put a flat 8x2 next to the 8x8 from the right, protruding four buttons to the front (its left back corner touching the right front corner of the 4x1).
+\par \hich\af0\dbch\af31505\loch\f0 3.\tab Connect it to the 8x8 by putting a 2x1 (m\hich\af0\dbch\af31505\loch\f0 issing) horizontally partly in front of the 4x1 and partly on the left back button of the 8x2. 
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Put a 2x1 vertically to the left of the previous piece, on the two back right buttons of the 8x2.
+\par \hich\af0\dbch\af31505\loch\f0 Put a flat smooth 4x1  vertically to the front of it.
+\par \hich\af0\dbch\af31505\loch\f0 Put a 2x\hich\af0\dbch\af31505\loch\f0 1 vertically  to the front of it.
+\par \hich\af0\dbch\af31505\loch\f0 Put another flat 8x8 next to the first one to the right (it fits nicely in the corner on the left back corner).
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 4.\tab 
+Make a symmetrical front right-side end: put a 2x1 vertically to the left of the previous 2x1 to connect th\hich\af0\dbch\af31505\loch\f0 
+e two platform pieces; put a 4x1 vertically on front of it; put a 1x1 to the left of the front button of the previous piece.
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 2.}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 5.\tab 
+Put a 1x1 with the clasp on top of the 1x1 piece in the back of the flat smooth 4x1 piece, clasp to the right. Put a 1x1 \hich\af0\dbch\af31505\loch\f0 with the clasp on top of the 1x1 piece in the front of the flat smooth 4x1 piece, clasp to the left.
+
+\par \hich\af0\dbch\af31505\loch\f0 6.\tab Put a 2x1 vertically to the front of the prev\hich\af0\dbch\af31505\loch\f0 
+ious piece. Put a 4x1 curves piece vertically to the left and the front of it. Put a 2x1 holey piece horizontally to the front and to the left of it. Repeat symmetrically on the back.
+\par \hich\af0\dbch\af31505\loch\f0 7.\tab Put a 1x1 with the slide horizontally on the back holey piece, slide \hich\af0\dbch\af31505\loch\f0 to the left. 
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Put a 3-button corner piece partly on the front two buttons of the back curved piece and partly on the 2x1 in front of it, in the shape of letter H.
+\par \hich\af0\dbch\af31505\loch\f0 Put a 2x1 vertically to the right and to the front of it. Repeat symmetrically on the front r\hich\af0\dbch\af31505\loch\f0 ight side.
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 8.\tab 
+Put the lattice in the frames and put them vertically in the 2-button gaps.
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 3.}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 9.\tab 
+Put two 1x1 pieces with the clasps on top of the two ends on the opposite sides of the smooth flat piece, clasps to the left.
+\par \hich\af0\dbch\af31505\loch\f0 10.\tab Put a 3x1 horizontally to \hich\af0\dbch\af31505\loch\f0 the back and to the left of the back previous piece.
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Put a 1x1 cylinder to the back. Put another one to the back, skipping the window.
+\par \hich\af0\dbch\af31505\loch\f0 Repeat symmetrically on the front.
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 11.\tab Put a 6x1 arch over the gap in the middle. 
+
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Put a 3x1 horizontally to the back. 
+\par \hich\af0\dbch\af31505\loch\f0 P\hich\af0\dbch\af31505\loch\f0 ut a 4x1 arch over the window.
+\par \hich\af0\dbch\af31505\loch\f0 Repeat on the front.
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 12.\tab 
+Put the lattice in the door and install in the middle, hinges to the front.
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Put a 2x1 piece with the slide horizontally in front of the over-the-door arch, skipping two buttons to the right on the hor\hich\af0\dbch\af31505\loch\f0 izontal 3x1, overhanging on the right, slide to the front.
+\par \hich\af0\dbch\af31505\loch\f0 Put a 1x1 with the slide to the left of it, slide to the front.
+\par \hich\af0\dbch\af31505\loch\f0 Repeat on the back, slides to the back.
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 4. }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 13.\tab 
+Put a 4x1 curved piece vertically on the middle of the over-the-door arch.
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Put a \hich\af0\dbch\af31505\loch\f0 
+2x1 with the slide to the front and to the right of it, slide to the front.
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 14.\tab 
+Connect to the curved piece by putting a flat 2x1 vertically on top.
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Put a 1x1 to the left of the slide.
+\par \hich\af0\dbch\af31505\loch\f0 Put a 3x1 vertically in the middle of the front part of the right wall.
+\par \hich\af0\dbch\af31505\loch\f0 Repeat at the back. (a 1x1 piece is missing).
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 15.\tab 
+Put a flat 8x1 vertically to the left of the over-the-door arch, on the two 1x1 pieces.
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Put a 2x1 vertically to the front and to the left of it.
+
+\par \hich\af0\dbch\af31505\loch\f0 Put a 2x1 vertically to the back and to left of it.
+\par \hich\af0\dbch\af31505\loch\f0 Put two 1x1 with the handle to the ends of the two previous pieces, handles to the right.
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 16.\tab 
+Put an 8x1 arch vertically to the left of the 8x1 flat piece over the door.
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Put a flat 2x2 with the stick on the left side-edge in the middle of platform, skippin\hich\af0\dbch\af31505\loch\f0 g seven rows from the front.
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 5.}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par \hich\af0\dbch\af31505\loch\f0 Make a trophy stand.
+\par }\pard \ltrpar\ql \fi-431\li1440\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1440\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 1.\tab 
+- 2 Put two 2x1 curved pieces underneath a flat 4x2 piece to make a table.
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 3.put a 4x1 curved piece on the back row of the 4x2.
+\par \hich\af0\dbch\af31505\loch\f0 4. put two 1x1 cylinders on the top on the ends of the previous piec\hich\af0\dbch\af31505\loch\f0 e.
+\par \hich\af0\dbch\af31505\loch\f0 5. put two goblets on the two end buttons of the 4x2.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Insert the stick of the shield in the hole on the side of the 2x1 piece. Put a sticker on the shield (it says "Seeker James Potter"). Put this part in between the two cones, shield to the left.
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 6.\tab Pu\hich\af0\dbch\af31505\loch\f0 
+t a 4x1 curved piece vertically on the top.
+\par \hich\af0\dbch\af31505\loch\f0 7.\tab Put a flat 4x2 vertically on top, to overhang on the left.
+\par \hich\af0\dbch\af31505\loch\f0 17.\tab Install this part vertically on the back, to the left of the back part of the right wall.
+\par \hich\af0\dbch\af31505\loch\f0 18.\tab Make a chest, put a jewel and map (?) inside and put\hich\af0\dbch\af31505\loch\f0  it horizontally to the front of the right back wall.
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 6}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 19.\tab 
+Put two 2x1 tall pieces horizontally at the front row, on the left and right ends.
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Put a 1x1 button to the left of the right tall piece.
+
+\par \hich\af0\dbch\af31505\loch\f0 Put two 2x1 flat pieces with one button horizontally si\hich\af0\dbch\af31505\loch\f0 de by side to the left of the 1x1 button. 
+\par \hich\af0\dbch\af31505\loch\f0 Put a long stick on the stick in the middle of the front.
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 20.\tab \hich\af0\dbch\af31505\loch\f0 
+Put the first step of the staircase with the ring on the stick and the flat part on the right, on the two buttons of the two 2x1 pieces with one button, and overhanging at the front.
+\par \hich\af0\dbch\af31505\loch\f0 21.\tab Put the other seven steps the same way, each one more to the right, s\hich\af0\dbch\af31505\loch\f0 o that the staircase goes up to the front and to the left and each step overhangs the previous one on the front.
+
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Put a 2x2 flat piece with the stick on the bottom on top of the stair column.
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 7}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 22.\tab \hich\af0\dbch\af31505\loch\f0 
+Put a 2x1 horizontally on the back two buttons of the staircase column.
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Put two 8x1 arches vertically on the right and left walls.
+
+\par \hich\af0\dbch\af31505\loch\f0 Put two 2x1 pieces with the lip horizontally on the free buttons of the two tall pieces at the left and right front, lips fac\hich\af0\dbch\af31505\loch\f0 ing each other.
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 23.\tab 
+Put two 1x1 pieces with the handle on top of the two previous pieces, next to the arches, handles to the front.
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Put a 12x1 piece horizontally at the front, resting on the two lip pieces.
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 24.\tab Put two 8x8 flat pieces on top side by side.
+
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Put two stickers on the two tall pieces in front - of the Slytherin and Griffindor founders, I think.
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 25.\tab 
+Rotate your structure 180 degrees. Put a 2x2 lip piece on the table, lip to the front. Put a 2x1 flat piece horizontally on the back two buttons of it\hich\af0\dbch\af31505\loch\f0 
+. Put a 2x1 horizontally on top of the previous piece. Put this part horizontally on top of the front of your structure, in the middle, on the 4x2 curved piece, lip to the front.
+\par \hich\af0\dbch\af31505\loch\f0 26.\tab Put two 1x1 slide pieces horizontally at the sides of the lip of the prev\hich\af0\dbch\af31505\loch\f0 ious part, slides outwards.
+\par \hich\af0\dbch\af31505\loch\f0 27.\tab Put two 1x1 slide pieces horizontally on top of the lip, slides outwards.
+\par \hich\af0\dbch\af31505\loch\f0 28.\tab Put a small roof piece on top of the two previous pieces, flat side to the back.
+\par \hich\af0\dbch\af31505\loch\f0 29.\tab Put a flame into the torch and insert it into the clasp to th\hich\af0\dbch\af31505\loch\f0 e right of the door.
+\par \hich\af0\dbch\af31505\loch\f0 30.\tab Put a lattice in the window frame, put it on the 2x1 curved piece (missing?) and put it horizontally in the front, in the middle, to the back of the previous pieces.
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Large bag 10
+\par \hich\af0\dbch\af31505\loch\f0 Bag 1}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 31.\tab Put stickers on two wall pieces and put th
+\hich\af0\dbch\af31505\loch\f0 em diagonally to the right and to the left of the window.
+\par \hich\af0\dbch\af31505\loch\f0 32.\tab Make a fancy window. 
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Put a curved 4x1 on top of a 4x1, put a lattice in the window.
+\par \hich\af0\dbch\af31505\loch\f0 Put the window in the middle of the curved piece.
+\par }\pard \ltrpar\ql \fi288\li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Put two 1x1 cylinders on the sides.
+\par \hich\af0\dbch\af31505\loch\f0 Put the other two cylinders on top of these. 
+\par \hich\af0\dbch\af31505\loch\f0 Put a 4x1 arch on these.
+\par \hich\af0\dbch\af31505\loch\f0 Repeat to make a second window.
+\par \hich\af0\dbch\af31505\loch\f0 Put these windows horizontally at the sides on the front row of the second-store base, next to the wall pieces.
+\par \hich\af0\dbch\af31505\loch\f0 Bag 2
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 33.\tab Rotate your structure 180 degre
+\hich\af0\dbch\af31505\loch\f0 es. Put a 4x1 arch on the middle window at the back.
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Put two 2x1 pieces horizontally at the sides on the back, in the middle of the over-the-window arches.
+\par \hich\af0\dbch\af31505\loch\f0 Put two 2x2 lip pieces to the center of the previous pieces, lips to the front.
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 34.\tab Put a 2x1 horizo
+\hich\af0\dbch\af31505\loch\f0 ntally in the middle of the back middle window.
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Put two 3-button stepped pieces at the sides of it, steps facing each other.
+\par \hich\af0\dbch\af31505\loch\f0 Put two 2x1 pieces horizontally to the sides of the previous pieces.
+\par \hich\af0\dbch\af31505\loch\f0 Put two 1x1 pieces with the handle to the sides of the previou\hich\af0\dbch\af31505\loch\f0 s pieces, handles to the back.
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 35.\tab 
+ Put a 2x2 flat smooth piece upright on the four upright buttons of a 2x1 corner piece (it has a Hogwarts emblem on it - a quartered shield with coats of arms of the four houses and the letter H in the middle).
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Put this p\hich\af0\dbch\af31505\loch\f0 
+art horizontally in the middle of the back, hanging to the back.
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 3.}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 36.
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 1. flip a flat 4x4 piece upside down.
+\par \hich\af0\dbch\af31505\loch\f0 2. put two 4x1 curved pieces at the opposite sides.
+\par \hich\af0\dbch\af31505\loch\f0 3. flip right side up. Put it so that the curved pieces are vertical. Put a 2x1 horizontal\hich\af0\dbch\af31505\loch\f0 ly in the middle of the back tow.
+\par \hich\af0\dbch\af31505\loch\f0 Put two 1x1 slide pieces at the sides of it, slides to the front.
+\par \hich\af0\dbch\af31505\loch\f0 4. put a 4x1 curved piece horizontally on top.
+\par \hich\af0\dbch\af31505\loch\f0 Put a 2x1 curved piece on top, in the middle.
+\par \hich\af0\dbch\af31505\loch\f0 5. put two 1x1 cones at the sides.
+\par \hich\af0\dbch\af31505\loch\f0 Put a 2x1 curved piece horizontally on top, in the middle.
+\par \hich\af0\dbch\af31505\loch\f0 6. put two 1x1 wedge pieces on top to make a small roof.
+\par \hich\af0\dbch\af31505\loch\f0 Install this part in the middle of your structure, at the back, to the front of the middle window.
+\par \hich\af0\dbch\af31505\loch\f0 Bag 4.
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 37.\tab Put one flat smooth 3x1 vertic
+\hich\af0\dbch\af31505\loch\f0 ally on the left side at the back, skipping four columns to the right, and the other symmetrically on the right.
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Put two columns in front of them.
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 38.\tab 
+Put two 4x1 arches vertically on top of the columns and on the lips in the back.
+\par \hich\af0\dbch\af31505\loch\f0 39.\tab 1. Put a flat 4x2 ho\hich\af0\dbch\af31505\loch\f0 rizontally on the table.
+\par }\pard \ltrpar\ql \fi-431\li1440\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1440\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 2.\tab 
+Make a seat in the back with the bench-piece in the middle and two corner-pieces at the corner.
+\par \hich\af0\dbch\af31505\loch\f0 3.\tab Put two 1x1 pieces with the side buttons at the front corners, buttons to the front. Put a bench-piece in the middle to finish th\hich\af0\dbch\af31505\loch\f0 e box. Put a claw inside.
+\par \hich\af0\dbch\af31505\loch\f0 4.\tab Close the box with the flat 4x2.
+\par \hich\af0\dbch\af31505\loch\f0 5.\tab Put two flat 2x1 with one button upright horizontally side by side on the side buttons of the two 1x1 with the side buttons. Put a 4x1 curved piece horizontally on the back of your part.
+\par \hich\af0\dbch\af31505\loch\f0 6.\tab P\hich\af0\dbch\af31505\loch\f0 
+ut another curved piece on top of the previous one. Put a 1x1 cylinder on the leftmost front button, and a 1x1 piece on the third button (skipping one to the right from the previous piece.)
+\par \hich\af0\dbch\af31505\loch\f0 7.\tab Put the 1x1 button "corks" on the previous pieces.
+\par \hich\af0\dbch\af31505\loch\f0 8.\tab Put a fla\hich\af0\dbch\af31505\loch\f0 t 4x2 horizontally on top of the curved piece, overhanging to the front.
+\par }\pard \ltrpar\ql \li1440\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1440\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Put a 1x1 cone on top somewhere.
+\par }\pard \ltrpar\ql \fi-431\li1440\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1440\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 9.\tab Cork it and put a frog piece somewhere near.
+
+\par }\pard \ltrpar\ql \li1440\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1440\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Install this part horizontally at the back of the right side.
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Large bag 10.
+\par \hich\af0\dbch\af31505\loch\f0 Bag 5.}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 40.\tab \hich\af0\dbch\af31505\loch\f0 
+Make another chest/shelf, put a letter inside and five flasks on the shelves and install it vertically at the back of the left side, facing inside, of course.
+\par \hich\af0\dbch\af31505\loch\f0 41.\tab Make a low table by putting two 2x1 curved pieces underneath the short sides of a 6x2 flat pi\hich\af0\dbch\af31505\loch\f0 
+ece. make a magic crystal by putting a 1x1 cone in the middle of a 2x2 disk and putting a sphere on top. Put it on the table. Put a 2x2 flat smooth newspaper piece and a 1x1 cone on the table. Put a small clasp on the cone and insert a magnifying glass in
+\hich\af0\dbch\af31505\loch\f0  \hich\af0\dbch\af31505\loch\f0 it so that it is above the paper. Put this part horizontally in the middle, at the back.
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 7.}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par 
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 42.\tab 
+Put two square columns at the left and right front corners.
+\par \hich\af0\dbch\af31505\loch\f0 43.\tab Connect them with the back by putting two 8x1 arches vertically on tops.
+\par \hich\af0\dbch\af31505\loch\f0 44.\tab Put one flat 4\hich\af0\dbch\af31505\loch\f0 
+x1 piece horizontally at the left of the back, on the last button of the left arch? And one symmetrically on the right. Put a 6-button pizza piece at the back, to the right of the left 4x1 piece, cut-off corner to the back and to the left. Put the second 
+\hich\af0\dbch\af31505\loch\f0 p\hich\af0\dbch\af31505\loch\f0 iece symmetrically on the right.
+\par \hich\af0\dbch\af31505\loch\f0 45.\tab Put two flat 16x2 horizontally to the front of the pizza pieces, long side by long side, to create the back part of the ceiling.
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Put two flat 3x1 pieces vertically at the sides, to the front of the previous pieces.
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag \hich\af0\dbch\af31505\loch\f0 8.}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 46.\tab 
+Put two 8x1 pieces vertically at the sides. Put two 3x1 pieces horizontally at the back, to the right of the left 8x1 and to the left of the right 8x1.
+\par \hich\af0\dbch\af31505\loch\f0 47.\tab Put a flat 3x1 horizontally in the middle of the front side, on the 16x2 piece, on the first \hich\af0\dbch\af31505\loch\f0 row.
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 
+Put a 1x1 with the clasp to the right of it, clasp to the front and overhanging.
+\par \hich\af0\dbch\af31505\loch\f0 Put one 3-button corner piece at the left back corner, in the shape of the letter F, and the other one symmetrically at the right one, in the shape of the letter D.
+\par \hich\af0\dbch\af31505\loch\f0 Put o\hich\af0\dbch\af31505\loch\f0 ne 1x1 piece on the back wall, skipping one button to the left from the right corner piece, and the other symmetrically on the right.
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 9.}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 48.\tab 
+Put one 2x1 piece vertically on the front of the left wall. Skip one button to the back and put another 2x1 ver\hich\af0\dbch\af31505\loch\f0 
+tically. Do the same on the right. Put a flat smooth 4x1 horizontally in the middle of the front side, on top of the 3x1 and a clasp piece. Put a sword horizontally upright in the clasp, blade to the left.
+\par \hich\af0\dbch\af31505\loch\f0 49.\tab Put four 1x1 cones on top of the four corners.\hich\af0\dbch\af31505\loch\f0  Put a bat on one of the cones.
+\par \hich\af0\dbch\af31505\loch\f0 50.\tab Put a 12-button disk on top of a 2x2 cylinder. Put a 1x1 cone from a separate bag on top, in the middle. Put a hat on it. Put this part in the middle, to the back of the 4x1 flat smooth piece.
+\par \hich\af0\dbch\af31505\loch\f0 51.\tab Put a roof piece on top\hich\af0\dbch\af31505\loch\f0 , around the hat part, opening to the front.
+\par }\pard \ltrpar\ql \li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 Bag 10}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 
+\par }\pard \ltrpar\ql \fi-287\li1008\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1008\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0 52.\tab 
+Make a turret by putting a 1-button cone on top of a 2x2 cylinder and putting a 1x1 cone on top. Repeat. Put these turrets at the sides at the back of the roof.
+\par \hich\af0\dbch\af31505\loch\f0 53.\tab \hich\af0\dbch\af31505\loch\f0 Put a flat 2x1 with one button horizontally on top of the roof. Put a 1x1 cone on top.
+\par \hich\af0\dbch\af31505\loch\f0 54.\tab Connect this structure to the main building from the left. Enjoy!
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\lang3\langfe1033\langnp3\insrsid3431739 \hich\af0\dbch\af31505\loch\f0  
+\par \hich\af0\dbch\af31505\loch\f0  }{\rtlch\fcs1 \af31507 \ltrch\fcs0 \insrsid3431739 
+\par }{\*\themedata 504b030414000600080000002100e9de0fbfff0000001c020000130000005b436f6e74656e745f54797065735d2e786d6cac91cb4ec3301045f748fc83e52d4a
+9cb2400825e982c78ec7a27cc0c8992416c9d8b2a755fbf74cd25442a820166c2cd933f79e3be372bd1f07b5c3989ca74aaff2422b24eb1b475da5df374fd9ad
+5689811a183c61a50f98f4babebc2837878049899a52a57be670674cb23d8e90721f90a4d2fa3802cb35762680fd800ecd7551dc18eb899138e3c943d7e503b6
+b01d583deee5f99824e290b4ba3f364eac4a430883b3c092d4eca8f946c916422ecab927f52ea42b89a1cd59c254f919b0e85e6535d135a8de20f20b8c12c3b0
+0c895fcf6720192de6bf3b9e89ecdbd6596cbcdd8eb28e7c365ecc4ec1ff1460f53fe813d3cc7f5b7f020000ffff0300504b030414000600080000002100a5d6
+a7e7c0000000360100000b0000005f72656c732f2e72656c73848fcf6ac3300c87ef85bd83d17d51d2c31825762fa590432fa37d00e1287f68221bdb1bebdb4f
+c7060abb0884a4eff7a93dfeae8bf9e194e720169aaa06c3e2433fcb68e1763dbf7f82c985a4a725085b787086a37bdbb55fbc50d1a33ccd311ba548b6309512
+0f88d94fbc52ae4264d1c910d24a45db3462247fa791715fd71f989e19e0364cd3f51652d73760ae8fa8c9ffb3c330cc9e4fc17faf2ce545046e37944c69e462
+a1a82fe353bd90a865aad41ed0b5b8f9d6fd010000ffff0300504b0304140006000800000021006b799616830000008a0000001c0000007468656d652f746865
+6d652f7468656d654d616e616765722e786d6c0ccc4d0ac3201040e17da17790d93763bb284562b2cbaebbf600439c1a41c7a0d29fdbd7e5e38337cedf14d59b
+4b0d592c9c070d8a65cd2e88b7f07c2ca71ba8da481cc52c6ce1c715e6e97818c9b48d13df49c873517d23d59085adb5dd20d6b52bd521ef2cdd5eb9246a3d8b
+4757e8d3f729e245eb2b260a0238fd010000ffff0300504b03041400060008000000210030dd4329a8060000a41b0000160000007468656d652f7468656d652f
+7468656d65312e786d6cec594f6fdb3614bf0fd87720746f6327761a07758ad8b19b2d4d1bc46e871e698996d850a240d2497d1bdae38001c3ba618715d86d87
+615b8116d8a5fb34d93a6c1dd0afb0475292c5585e9236d88aad3e2412f9e3fbff1e1fa9abd7eec70c1d1221294fda5efd72cd4324f1794093b0eddd1ef62fad
+79482a9c0498f184b4bd2991deb58df7dfbb8ad755446282607d22d771db8b944ad79796a40fc3585ee62949606ecc458c15bc8a702910f808e8c66c69b9565b
+5d8a314d3c94e018c8de1a8fa94fd05093f43672e23d06af89927ac06762a049136785c10607758d9053d965021d62d6f6804fc08f86e4bef210c352c144dbab
+999fb7b4717509af678b985ab0b6b4ae6f7ed9ba6c4170b06c788a705430adf71bad2b5b057d03606a1ed7ebf5babd7a41cf00b0ef83a6569632cd467faddec9
+699640f6719e76b7d6ac355c7c89feca9cccad4ea7d36c65b258a206641f1b73f8b5da6a6373d9c11b90c537e7f08dce66b7bbeae00dc8e257e7f0fd2badd586
+8b37a088d1e4600ead1ddaef67d40bc898b3ed4af81ac0d76a197c86826828a24bb318f3442d8ab518dfe3a20f000d6458d104a9694ac6d88728eee2782428d6
+0cf03ac1a5193be4cbb921cd0b495fd054b5bd0f530c1931a3f7eaf9f7af9e3f45c70f9e1d3ff8e9f8e1c3e3073f5a42ceaa6d9c84e5552fbffdeccfc71fa33f
+9e7ef3f2d117d57859c6fffac327bffcfc793510d26726ce8b2f9ffcf6ecc98baf3efdfdbb4715f04d814765f890c644a29be408edf3181433567125272371be
+15c308d3f28acd249438c19a4b05fd9e8a1cf4cd296699771c393ac4b5e01d01e5a30a787d72cf1178108989a2159c77a2d801ee72ce3a5c545a6147f32a9979
+3849c26ae66252c6ed637c58c5bb8b13c7bfbd490a75330f4b47f16e441c31f7184e140e494214d273fc80900aedee52ead87597fa824b3e56e82e451d4c2b4d
+32a423279a668bb6690c7e9956e90cfe766cb37b077538abd27a8b1cba48c80acc2a841f12e698f13a9e281c57911ce298950d7e03aba84ac8c154f8655c4f2a
+f074481847bd804859b5e696007d4b4edfc150b12addbecba6b18b148a1e54d1bc81392f23b7f84137c2715a851dd0242a633f900710a218ed715505dfe56e86
+e877f0034e16bafb0e258ebb4faf06b769e888340b103d331115bebc4eb813bf83291b63624a0d1475a756c734f9bbc2cd28546ecbe1e20a3794ca175f3fae90
+fb6d2dd99bb07b55e5ccf68942bd0877b23c77b908e8db5f9db7f024d9239010f35bd4bbe2fcae387bfff9e2bc289f2fbe24cfaa301468dd8bd846dbb4ddf1c2
+ae7b4c191ba8292337a469bc25ec3d411f06f53a73e224c5292c8de0516732307070a1c0660d125c7d44553488700a4d7bddd3444299910e254ab984c3a219ae
+a4adf1d0f82b7bd46cea4388ad1c12ab5d1ed8e1153d9c9f350a3246aad01c6873462b9ac05999ad5cc988826eafc3acae853a33b7ba11cd1445875ba1b236b1
+399483c90bd560b0b0263435085a21b0f22a9cf9356b38ec6046026d77eba3dc2dc60b17e92219e180643ed27acffba86e9c94c7ca9c225a0f1b0cfae0788ad5
+4adc5a9aec1b703b8b93caec1a0bd8e5de7b132fe5113cf312503b998e2c2927274bd051db6b35979b1ef271daf6c6704e86c73805af4bdd476216c26593af84
+0dfb5393d964f9cc9bad5c313709ea70f561ed3ea7b053075221d51696910d0d339585004b34272bff7213cc7a510a5454a3b349b1b206c1f0af490176745d4b
+c663e2abb2b34b23da76f6352ba57ca2881844c1111ab189d8c7e07e1daaa04f40255c77988aa05fe06e4e5bdb4cb9c5394bbaf28d98c1d971ccd20867e556a7
+689ec9166e0a522183792b8907ba55ca6e943bbf2a26e52f48957218ffcf54d1fb09dc3eac04da033e5c0d0b8c74a6b43d2e54c4a10aa511f5fb021a07533b20
+5ae07e17a621a8e082dafc17e450ffb739676998b48643a4daa7211214f623150942f6a02c99e83b85583ddbbb2c4996113211551257a656ec1139246ca86be0
+aadedb3d1441a89b6a929501833b197fee7b9641a3503739e57c732a59b1f7da1cf8a73b1f9bcca0945b874d4393dbbf10b1680f66bbaa5d6f96e77b6f59113d
+316bb31a795600b3d256d0cad2fe354538e7566b2bd69cc6cbcd5c38f0e2bcc63058344429dc2121fd07f63f2a7c66bf76e80d75c8f7a1b622f878a18941d840
+545fb28d07d205d20e8ea071b283369834296bdaac75d256cb37eb0bee740bbe278cad253b8bbfcf69eca23973d939b97891c6ce2cecd8da8e2d343578f6648a
+c2d0383fc818c798cf64e52f597c740f1cbd05df0c264c49134cf09d4a60e8a107260f20f92d47b374e32f000000ffff0300504b030414000600080000002100
+0dd1909fb60000001b010000270000007468656d652f7468656d652f5f72656c732f7468656d654d616e616765722e786d6c2e72656c73848f4d0ac2301484f7
+8277086f6fd3ba109126dd88d0add40384e4350d363f2451eced0dae2c082e8761be9969bb979dc9136332de3168aa1a083ae995719ac16db8ec8e4052164e89
+d93b64b060828e6f37ed1567914b284d262452282e3198720e274a939cd08a54f980ae38a38f56e422a3a641c8bbd048f7757da0f19b017cc524bd62107bd500
+1996509affb3fd381a89672f1f165dfe514173d9850528a2c6cce0239baa4c04ca5bbabac4df000000ffff0300504b01022d0014000600080000002100e9de0f
+bfff0000001c0200001300000000000000000000000000000000005b436f6e74656e745f54797065735d2e786d6c504b01022d0014000600080000002100a5d6
+a7e7c0000000360100000b00000000000000000000000000300100005f72656c732f2e72656c73504b01022d00140006000800000021006b799616830000008a
+0000001c00000000000000000000000000190200007468656d652f7468656d652f7468656d654d616e616765722e786d6c504b01022d00140006000800000021
+0030dd4329a8060000a41b00001600000000000000000000000000d60200007468656d652f7468656d652f7468656d65312e786d6c504b01022d001400060008
+00000021000dd1909fb60000001b0100002700000000000000000000000000b20900007468656d652f7468656d652f5f72656c732f7468656d654d616e616765722e786d6c2e72656c73504b050600000000050005005d010000ad0a00000000}
+{\*\colorschememapping 3c3f786d6c2076657273696f6e3d22312e302220656e636f64696e673d225554462d3822207374616e64616c6f6e653d22796573223f3e0d0a3c613a636c724d
+617020786d6c6e733a613d22687474703a2f2f736368656d61732e6f70656e786d6c666f726d6174732e6f72672f64726177696e676d6c2f323030362f6d6169
+6e22206267313d226c743122207478313d22646b3122206267323d226c743222207478323d22646b322220616363656e74313d22616363656e74312220616363
+656e74323d22616363656e74322220616363656e74333d22616363656e74332220616363656e74343d22616363656e74342220616363656e74353d22616363656e74352220616363656e74363d22616363656e74362220686c696e6b3d22686c696e6b2220666f6c486c696e6b3d22666f6c486c696e6b222f3e}
+{\*\latentstyles\lsdstimax267\lsdlockeddef0\lsdsemihiddendef1\lsdunhideuseddef1\lsdqformatdef0\lsdprioritydef99{\lsdlockedexcept \lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority0 \lsdlocked0 Normal;
+\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 1;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 2;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 3;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 4;
+\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 5;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 6;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 7;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 8;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 9;
+\lsdpriority39 \lsdlocked0 toc 1;\lsdpriority39 \lsdlocked0 toc 2;\lsdpriority39 \lsdlocked0 toc 3;\lsdpriority39 \lsdlocked0 toc 4;\lsdpriority39 \lsdlocked0 toc 5;\lsdpriority39 \lsdlocked0 toc 6;\lsdpriority39 \lsdlocked0 toc 7;
+\lsdpriority39 \lsdlocked0 toc 8;\lsdpriority39 \lsdlocked0 toc 9;\lsdqformat1 \lsdpriority35 \lsdlocked0 caption;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority10 \lsdlocked0 Title;\lsdpriority1 \lsdlocked0 Default Paragraph Font;
+\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority11 \lsdlocked0 Subtitle;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority22 \lsdlocked0 Strong;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority20 \lsdlocked0 Emphasis;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority59 \lsdlocked0 Table Grid;\lsdunhideused0 \lsdlocked0 Placeholder Text;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority1 \lsdlocked0 No Spacing;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading;\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List;\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List;\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List;\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid;\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading Accent 1;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 1;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1 Accent 1;\lsdunhideused0 \lsdlocked0 Revision;
+\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority34 \lsdlocked0 List Paragraph;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority29 \lsdlocked0 Quote;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority30 \lsdlocked0 Intense Quote;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2 Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 1;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading Accent 1;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading Accent 2;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 2;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1 Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2 Accent 2;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 2;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List Accent 2;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List Accent 3;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 3;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1 Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2 Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 3;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List Accent 3;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid Accent 3;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid Accent 4;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1 Accent 4;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2 Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 4;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading Accent 4;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading Accent 5;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 5;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1 Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2 Accent 5;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 5;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List Accent 5;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List Accent 6;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 6;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1 Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2 Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 6;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List Accent 6;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid Accent 6;
+\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority19 \lsdlocked0 Subtle Emphasis;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority21 \lsdlocked0 Intense Emphasis;
+\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority31 \lsdlocked0 Subtle Reference;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority32 \lsdlocked0 Intense Reference;
+\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority33 \lsdlocked0 Book Title;\lsdpriority37 \lsdlocked0 Bibliography;\lsdqformat1 \lsdpriority39 \lsdlocked0 TOC Heading;}}{\*\datastore 010500000200000018000000
+4d73786d6c322e534158584d4c5265616465722e362e3000000000000000000000060000
+d0cf11e0a1b11ae1000000000000000000000000000000003e000300feff090006000000000000000000000001000000010000000000000000100000feffffff00000000feffffff0000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+fffffffffffffffffdfffffffeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffff52006f006f007400200045006e00740072007900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000016000500ffffffffffffffffffffffff0c6ad98892f1d411a65f0040963251e500000000000000000000000090a5
+ad912b38d001feffffff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff00000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000105000000000000}}ûý4}

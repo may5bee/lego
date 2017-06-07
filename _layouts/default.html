@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include nav.html %}
+
+    <div class="content-box">
+      
+        {{ content }}
+      
+    </div>
+
+	<div class="footer-section row division">
+	    <span>Tell your friends about Lego for the Blind</span>
+	   <!--  <a class="webicon facebook" href="http://www.facebook.com/share.php?u={{site.url}}&title={{site.title}}">Share on Facebook</a>
+  		<a class="webicon twitter" href="http://twitter.com/home?status={{site.title}}+{{site.url}}">Tweet</a> -->
+  		<div class="footer-logos">
+  		<a class="facebook" href="http://www.facebook.com/share.php?u={{site.url}}&title={{site.title}}"><button>Share on Facebook</button></a>
+  		<a class="twitter" href="http://twitter.com/home?status={{site.title}}+{{site.url}}"><button>Tweet</button></a>
+  		</div>
+	</div>
+
+	<div class="footer-section row">
+	    <p>Lego for the Blind is created by <a href="">Matthew Shifrin</a>.
+	    <br>Website by <a href="">Kevin Ma</a>.</p>
+	</div>
+
+</body>
+  
+</html>

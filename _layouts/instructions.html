@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<div class="content-section">
+  
+  <h4 class="post-title" itemprop="name headline">{{ page.title }}</h4>
+  	{{page.description}}
+
+  <div class="mini-section">
+    {% for file in page.filenames %}
+    <a href="/docs/{{file}}">  
+      <h4>Download Link{% if page.filenames.size > 1 %}s{% endif %}</h4>
+    </a>
+    {% endfor %}
+  	<a href="{{page.link}}"><h4>More Information</h4></a><br>
+  </div>
+
+</div>

@@ -1,0 +1,29 @@
+
+<div class="logo-box">
+ <a class="title" href="{{ site.baseurl }}/">
+    <img src="{{ site.baseurl }}/img/red.png" class="{% if page.title == 'home' %}lego-3{% else %}lego-3-alt{% endif %} lego" alt="The logo: animation of three logo bricks falling on to each other.">
+  </a>
+  <a class="title" href="{{ site.baseurl }}/">
+    <img src="{{ site.baseurl }}/img/yellow.png" class="{% if page.title == 'home' %}lego-2{% else %}lego-2-alt{% endif %} lego">
+  </a>
+  <a class="title" href="{{ site.baseurl }}/">
+    <img src="{{ site.baseurl }}/img/blue.png" class="{% if page.title == 'home' %}lego-1{% else %}lego-1-alt{% endif %} lego" >
+  </a>
+</div>
+
+
+<div class="header-box">
+  <div class="title-box">
+    <a class="title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+  </div>
+  <nav class="nav-contain">
+    <div class="navigation">
+    {% for my_page in site.pages %}
+      {% if my_page.title and my_page.title != "home" %}
+      <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+    </div>
+  </nav>
+</div>
+
